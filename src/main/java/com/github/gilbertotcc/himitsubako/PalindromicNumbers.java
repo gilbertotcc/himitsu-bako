@@ -2,9 +2,9 @@ package com.github.gilbertotcc.himitsubako;
 
 import java.util.List;
 
-public class PalindromeChecker {
+public class PalindromicNumbers {
 
-    private PalindromeChecker() {}
+    private PalindromicNumbers() {}
 
 
 
