@@ -12,7 +12,7 @@ import org.junit.Test;
 public class PalindromicStringsTest {
 
     private static final List<String> SEQUENCES = Arrays.asList(
-            "Dammit, I’m mad!",
+            "Anna",
             "Rise to vote, sir!",
             "Never odd or even",
             "Never odd and even",
