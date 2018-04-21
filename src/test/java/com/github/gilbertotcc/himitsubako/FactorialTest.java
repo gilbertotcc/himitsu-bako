@@ -9,6 +9,12 @@ import java.util.List;
 import com.github.gilbertotcc.himitsubako.util.Util;
 import org.junit.Test;
 
+/*
+ * Factorial Definition:
+ * factorial(0) = 1
+ * factorial(1) = 1
+ * factorial(n) = n * factorial(n-1)
+ */
 public class FactorialTest {
 
     private final List<Integer> LIST_OF_NUMBERS = asList(0, 1, 2, 3, 4, 5);
