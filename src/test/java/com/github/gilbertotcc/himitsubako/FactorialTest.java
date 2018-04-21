@@ -6,12 +6,13 @@ import static org.junit.Assert.assertEquals;
 import java.math.BigInteger;
 import java.util.List;
 
+import com.github.gilbertotcc.himitsubako.util.Util;
 import org.junit.Test;
 
 public class FactorialTest {
 
     private final List<Integer> LIST_OF_NUMBERS = asList(0, 1, 2, 3, 4, 5);
-    private final int A_BIG_NUMBER = 1000;
+    private final int A_BIG_NUMBER = 17125;
 
     @Test
     public void calculateFactorialOfZero() {
@@ -48,6 +49,6 @@ public class FactorialTest {
     @Test
     public void calculateFactorialOfABigNumber() {
         BigInteger factorial = Factorial.factorialOf(A_BIG_NUMBER);
-        assertEquals(BigInteger.ONE, factorial);
+        assertEquals(Util.VERY_LONG_INTEGER, factorial);
     }
 }
