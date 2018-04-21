@@ -12,7 +12,7 @@ import org.junit.Test;
  */
 public class FibonacciTest {
 
-    private final int A_BIG_NUMBER = 17125;
+    private final int A_BIG_NUMBER = 21356;
 
     @Test
     public void calculateFibonacciOfZero() {
@@ -20,18 +20,21 @@ public class FibonacciTest {
         assertEquals(0, fibonacci0);
     }
 
-    @Test void calculateFibonacciOfOne() {
+    @Test
+    public void calculateFibonacciOfOne() {
         int fibonacci1 = Fibonacci.fibonacciOf(1);
         assertEquals(1, fibonacci1);
     }
 
-    @Test void calculateFibonacciOfFive() {
+    @Test
+    public void calculateFibonacciOfFive() {
         int fibonacci5 = Fibonacci.fibonacciOf(5);
         assertEquals(5, fibonacci5);
     }
 
-    @Test void calculateFibonacciOfABigNumber() {
+    @Test
+    public void calculateFibonacciOfABigNumber() {
         int fibonacciBig = Fibonacci.fibonacciOf(A_BIG_NUMBER);
-        assertEquals(1, fibonacciBig);
+        assertEquals(1078193757, fibonacciBig);
     }
 }
