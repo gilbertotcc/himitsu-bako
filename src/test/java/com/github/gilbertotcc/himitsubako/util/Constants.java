@@ -3,7 +3,7 @@ package com.github.gilbertotcc.himitsubako.util;
 import java.math.BigInteger;
 import java.util.Optional;
 
-public class Util {
+public class Constants {
 
     public static final String VERY_LONG_PALINDROME = "Star? Not I! Movie – it too has a star in or a cameo who wore mask – cast are livewires. " +
                     "Soda-pop straws are sold, as part-encased a hot tin, I saw it in mad dog I met. Is dog rosy? Tie-dye booths in rocks. " +
@@ -528,6 +528,6 @@ public class Util {
             .map(BigInteger::new)
             .get();
 
-    private Util() {
+    private Constants() {
     }
 }

@@ -6,7 +6,7 @@ import static org.junit.Assert.assertTrue;
 import java.util.Arrays;
 import java.util.List;
 
-import com.github.gilbertotcc.himitsubako.util.Util;
+import com.github.gilbertotcc.himitsubako.util.Constants;
 import org.junit.Test;
 
 public class PalindromicStringsTest {
@@ -19,7 +19,7 @@ public class PalindromicStringsTest {
             "Was it a car or a cat I saw?",
             "Was it a car or a dog I saw?",
             "Doc, note: I dissent. A fast never prevents a fatness. I diet on cod.",
-            Util.VERY_LONG_PALINDROME
+            Constants.VERY_LONG_PALINDROME
     );
 
     @Test

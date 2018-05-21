@@ -6,7 +6,7 @@ import static org.junit.Assert.assertEquals;
 import java.math.BigInteger;
 import java.util.List;
 
-import com.github.gilbertotcc.himitsubako.util.Util;
+import com.github.gilbertotcc.himitsubako.util.Constants;
 import org.junit.Test;
 
 /*
@@ -55,6 +55,6 @@ public class FactorialTest {
     @Test
     public void calculateFactorialOfABigNumber() {
         BigInteger factorial = Factorial.factorialOf(A_BIG_NUMBER);
-        assertEquals(Util.VERY_LONG_INTEGER, factorial);
+        assertEquals(Constants.VERY_LONG_INTEGER, factorial);
     }
 }
